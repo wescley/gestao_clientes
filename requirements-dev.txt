@@ -26,7 +26,6 @@ Pint==0.9
 pipenv==2018.11.26
 plac==0.9.6
 preshed==2.0.1
-psycopg2==2.8.6
 pylint==2.3.1
 pymongo==3.0.3
 python-decouple==3.3
