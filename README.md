@@ -5,11 +5,11 @@ To execute:
 
 1. Clone the project:
 <br>
->git clone https://github.com/wescley/gestao_clientes.git
+> git clone https://github.com/wescley/gestao_clientes.git
 
 2. Execute the comand:
 <br> 
->python manage.py runserver
+> python manage.py runserver
 
 3. Access the page:<br>
 localhost:8000/login
