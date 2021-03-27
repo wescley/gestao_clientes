@@ -11,9 +11,10 @@ class Documento(models.Model):
 class Person(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
-    age = models.IntegerField()
-    salary = models.DecimalField(max_digits=5, decimal_places=2)
-    bio = models.TextField()
+    date_birth = models.DateField(auto_now=False, auto_now_add=False)
+    phone = models.CharField(max_length=30)
+    address = models.TextField()
+    email = models.EmailField(max_length=254)
     photo = models.ImageField(upload_to='clients_photos', null=True, blank=True)
     doc = models.OneToOneField(Documento, null=True, blank=True, on_delete=models.CASCADE)
 
