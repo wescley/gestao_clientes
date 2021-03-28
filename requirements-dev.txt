@@ -49,3 +49,4 @@ virtualenv-clone==0.5.3
 wasabi==0.2.2
 Werkzeug==0.15.6
 wrapt==1.11.2
+django-bootstrap-form==3.4
